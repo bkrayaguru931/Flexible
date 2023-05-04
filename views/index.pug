@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Krishna Yoga Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    
+    section#introSection
+        div Welcome to Krishna's Yoga Academy
+        div.small Eat Sleep Yoga Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Yoga Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best Yoga academy of the Country
+        div.card
+            h3 Yoga the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best Yoga academy of the Country
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is the best Yoga academy of the Country
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/img/logo1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image", class="spImage")
+    
+    footer#footer
+        | Copyright © 2023 KrishnaYogaAcademy.com | All rights reserved
+    script
+      include ../static/index.js
